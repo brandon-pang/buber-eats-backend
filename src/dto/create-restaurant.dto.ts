@@ -25,5 +25,4 @@ export class CreateRestaurantDto {
     @IsString()
     @Length(3, 16)
     categoryName: string;
-
 }
